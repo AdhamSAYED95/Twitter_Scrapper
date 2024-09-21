@@ -1,6 +1,5 @@
 import chalk from "chalk";
 import cron from "node-cron";
-// import "dotenv/config";
 import puppeteer from "puppeteer";
 
 cron.schedule("*/2 * * * *", async () => {
